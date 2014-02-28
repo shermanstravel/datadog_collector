@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```ruby
 
-require 'harness'
+require 'datadog_collector'
 Harness.config.collector = DatadogCollector::Collector.new({ tags: ['test'] })
 ```
 

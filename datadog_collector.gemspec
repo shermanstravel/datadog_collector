@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'datadog_collector'
   spec.version       = DatadogCollector::VERSION
   spec.authors       = ['Shermans Travel Media Inc']
-  spec.email         = ['engineering@shermanstravelmedia.com']
+  spec.email         = 'engineering@shermanstravelmedia.com'
   spec.homepage      = 'http://www.shermanstravel.com'
-  spec.description   = ['Harness Collector Wrapper for dogstatsd-ruby Gem.']
-  spec.summary       = ['Harness Collector Wrapper for dogstatsd-ruby Gem.']
+  spec.description   = 'Harness Collector Wrapper for dogstatsd-ruby Gem.'
+  spec.summary       = 'Harness Collector Wrapper for dogstatsd-ruby Gem.'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
