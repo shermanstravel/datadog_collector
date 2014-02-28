@@ -1,12 +1,12 @@
 # DatadogCollector
 
-TODO: Write a gem description
+Harness Collector Wrapper for dogstatsd-ruby Gem.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'datadog_collector'
+    gem 'datadog_collector', :git => 'git@github.com:shermanstravel/datadog_collector.git'
 
 And then execute:
 
@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+
+require 'harness'
+Harness.config.collector = DatadogCollector::Collector.new({ tags: ['test'] })
+```
 
 ## Contributing
 
