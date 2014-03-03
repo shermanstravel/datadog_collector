@@ -3,7 +3,7 @@ module DatadogCollector
 
     attr_reader :collector
 
-    def initialize(host=Statsd::DEFAULT_HOST, port=Statsd::DEFAULT_PORT, opts={})
+    def initialize(host=Statsd::DEFAULT_HOST, port=Statsd::DEFAULT_PORT, opts)
       @collector = ::Statsd.new(host, port, opts)
     end
 
